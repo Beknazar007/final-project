@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: fff; -fx-border-color: #b541bf;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.javafiles.HomeController">
+    <children>
+        <AnchorPane layoutX="436.0" layoutY="24.0" prefHeight="18.0" prefWidth="0.0" style="-fx-background-color: #2E3348;" />
+        <TableView fx:id="tableView" accessibleRole="CHECK_MENU_ITEM" layoutX="108.0" layoutY="101.0" prefHeight="343.0" prefWidth="308.0" style="-fx-border-color: #b541bf; -fx-background-color: fff; -fx-border-radius: 5;" tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn fx:id="task" prefWidth="328.0" text="Name of food" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnRemove" layoutX="360.0" layoutY="454.0" mnemonicParsing="false" onAction="#removeTask" style="-fx-background-color: #b541bf;" text="Order" textFill="WHITE" />
+        <Button fx:id="btnAdd" layoutX="472.0" layoutY="36.0" mnemonicParsing="false" onAction="#addNewTask" prefHeight="43.0" prefWidth="123.0" style="-fx-background-color: #b541bf; -fx-border-color: #b541bf; -fx-border-radius: 5;" text="Add" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <TextField fx:id="textToDo" layoutX="108.0" layoutY="36.0" prefHeight="43.0" prefWidth="308.0" promptText="Write name of food..." style="-fx-background-color: #fafafa; -fx-border-color: #b541bf; -fx-border-radius: 5;" />
+        <Button fx:id="btnRemove1" layoutX="108.0" layoutY="454.0" mnemonicParsing="false" onAction="#removeTask" style="-fx-background-color: #b541bf;" text="Clear" textFill="WHITE" />
+        <TextField layoutX="465.0" layoutY="101.0" text="Ash">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="125.0" text="Kuurdak">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="173.0" text="Manty">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="149.0" text="Shorpo">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="202.0" text="Shashlyk">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="231.0" text="Samsa">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="258.0" text="Jusai">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="287.0" text="Oromo">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="316.0" text="Lagman">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="345.0" text="Gulash">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="465.0" layoutY="374.0" text="Tea">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="101.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="125.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="149.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="178.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="202.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="231.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="258.0" prefHeight="29.0" prefWidth="64.0" text="300">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="287.0" prefHeight="29.0" prefWidth="64.0" text="200">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="316.0" prefHeight="29.0" prefWidth="64.0" text="200">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="345.0" prefHeight="29.0" prefWidth="64.0" text="200">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="685.0" layoutY="374.0" prefHeight="29.0" prefWidth="64.0" text="200">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>

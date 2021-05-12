@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.javafiles.Controller">
+   <children>
+      <TextField fx:id="login_field" alignment="TOP_LEFT" layoutX="236.0" layoutY="204.0" prefHeight="26.0" prefWidth="363.0" promptText="Логин" style="-fx-background-color: #fff; -fx-border-color: silver; -fx-border-radius: 10px; -fx-border-color: #b541bf;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password_field" accessibleRole="BUTTON" cache="true" cacheHint="SCALE" layoutX="236.0" layoutY="251.0" prefHeight="26.0" prefWidth="363.0" promptText="Пароль" style="-fx-background-color: #fff; -fx-border-color: silver; -fx-border-radius: 10px; -fx-border-color: #b541bf;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </PasswordField>
+      <Label contentDisplay="CENTER" layoutX="329.0" layoutY="35.0" prefHeight="40.0" prefWidth="231.0" text="Welkome to" textFill="#b541bf">
+         <font>
+            <Font name="Garuda Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="authSigninButton" layoutX="478.0" layoutY="320.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="121.0" style="-fx-background-color: #b541bf; -fx-border-radius: 10px;" text="Войти" textFill="WHITE">
+         <font>
+            <Font name="Garuda Bold" size="13.0" />
+         </font>
+      </Button>
+
+      <Label alignment="CENTER" contentDisplay="BOTTOM" graphicTextGap="6.0" layoutX="294.0" layoutY="84.0" prefHeight="84.0" prefWidth="225.0" text="Faiza" textFill="#b541bf">
+         <font>
+            <Font name="Bell MT Bold" size="54.0" />
+         </font>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
