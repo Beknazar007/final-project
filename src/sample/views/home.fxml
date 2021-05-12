@@ -22,7 +22,7 @@
             </font>
         </Button>
         <TextField fx:id="textToDo" layoutX="108.0" layoutY="36.0" prefHeight="43.0" prefWidth="308.0" promptText="Write name of food..." style="-fx-background-color: #fafafa; -fx-border-color: #b541bf; -fx-border-radius: 5;" />
-        <Button fx:id="btnRemove1" layoutX="108.0" layoutY="454.0" mnemonicParsing="false" onAction="#removeTask" style="-fx-background-color: #b541bf;" text="Remove" textFill="WHITE" />
+        <Button fx:id="btnRemove1" layoutX="108.0" layoutY="454.0" mnemonicParsing="false" onAction="#removeTask" style="-fx-background-color: #b541bf;" text="Clear" textFill="WHITE" />
         <TextField layoutX="465.0" layoutY="101.0" text="Ash">
             <font>
                 <Font size="15.0" />
